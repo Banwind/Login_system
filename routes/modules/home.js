@@ -8,7 +8,7 @@ router.post('/', (req, res) => {
     .lean()
     .then((doc) => {
       if (doc.password === password) {
-        res.render('home', name)
+        res.render('home', { doc })
       } else {
         alert('Wrong password')
       }
