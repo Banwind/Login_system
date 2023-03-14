@@ -2,6 +2,7 @@ const express = require('express')
 const exphbs = require('express-handlebars')
 const app = express()
 const methodOverride = require('method-override')
+const bodyParser = require('body-parser')
 const routes = require('./routes')
 const PORT = 3000
 
