@@ -19,8 +19,8 @@ http://localhost:3000/
 # 環境與開發工具:
 
 - "body-parser": "^1.20.2",
-- "express": "^4.17.1",
+- "express": "^4.18.2",
 - "express-handlebars": "^4.0.2",
 - "method-override": "^3.0.0",
-- "mongoose": "^5.9.7"
+- "mongoose": "^5.13.16"
 - "dotenv": "^16.0.3"
