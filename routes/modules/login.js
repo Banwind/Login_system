@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router()
-const userModel = require('../../models/usermodel')
+const userModel = require('../../models/userModel')
 
 router.post('/', (req, res) => {
-  
+
   userModel.findOne({ email })
     .lean()
     .then((doc) => 
@@ -12,3 +12,5 @@ router.post('/', (req, res) => {
 })
 
 module.exports = router
+
+//還沒寫完
