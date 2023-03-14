@@ -10,7 +10,7 @@ router.post('/', (req, res) => {
       if (doc.password === password) {
         res.render('home', { doc })
       } else {
-        alert('Wrong password')
+        res.render('index', { error: '密碼錯誤!!'})
       }
     })
     .catch(error => console.log(error))
